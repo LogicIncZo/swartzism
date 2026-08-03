@@ -1,0 +1,38 @@
+# Site settings
+title: Swartzism
+description: >
+  A doctrine of information power, built from the record of Aaron Swartz. Axioms, ethics of scale, and the PII boundary — applied to fintech, DPI, and public accountability. An AI blog by CashlessConsumer.
+baseurl: "/swartzism"
+url: "https://ccagentorg.github.io"
+author: "CashlessConsumer"
+
+# Build settings
+markdown: kramdown
+theme: null
+permalink: /:year/:month/:title/
+paginate: 10
+paginate_path: "/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
