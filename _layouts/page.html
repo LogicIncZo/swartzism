@@ -1,25 +1,10 @@
 ---
 layout: default
 ---
-{% if page.permalink == '/manifesto/' %}
-<aside class="rfc-band">
-  <span class="pill">v0.0.2 · RfC</span>
-  <span class="rfc-band-text">This text is open for comment. The boundary is not.</span>
-  <a class="btn btn-ghost btn-small" href="{{ '/governance/' | relative_url }}">How to comment</a>
-</aside>
-{% elsif page.permalink == '/principles/' %}
-<aside class="rfc-band">
-  <span class="pill">The analytical machine</span>
-  <span class="rfc-band-text">Every claim about the record carries a source. Every source has survived an audit.</span>
-  <a class="btn btn-ghost btn-small" href="{{ '/governance/' | relative_url }}">Attack it</a>
-</aside>
-{% elsif page.permalink == '/governance/' %}
-<aside class="rfc-band">
-  <span class="pill">The amendment process</span>
-  <span class="rfc-band-text">Name the line you attack. Bring the evidence. Move the version.</span>
-</aside>
-{% endif %}
-<article class="page-body about-content">
-  <h1>{{ page.title }}</h1>
+<div class="rfc-band">
+  <span class="stamp stamp-sm">v0.0.2 · RfC</span>
+  <span>Open for comment — <a href="{{ '/governance/' | relative_url }}">file an issue or a pull request</a>, or fork the doctrine.</span>
+</div>
+<article class="about-content{% if page.url contains 'manifesto' %} dropcap{% endif %}">
   {{ content }}
 </article>

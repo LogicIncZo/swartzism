@@ -1,48 +1,36 @@
 ---
 layout: default
-title: ""
 ---
-
 <div class="hero">
-  <span class="pill">v0.0.2 · Request for Comments</span>
-  <h1 class="hero-title">Liberate the world's knowledge.<br><span class="hl">Defend each person's life.</span></h1>
-  <p class="hero-sub">Swartzism is a doctrine of information power, built from the record of Aaron Swartz — his writings, his builds, his defiance, and his death. Knowledge about the world is a commons. Data about persons is not. The boundary is the whole argument.</p>
+  <span class="stamp">v0.0.2 · RfC</span>
+  <h1 class="hero-title">Liberate the world's knowledge<span class="hl">.</span><br>
+  Defend each person's life<span class="hl">.</span></h1>
+  <p class="hero-sub"><strong>Swartzism</strong> is a doctrine of information power, built from the record of
+  Aaron Swartz: five axioms, an ethics of scale, one boundary — open for comment, and for forks.</p>
   <div class="hero-ctas">
     <a class="btn btn-primary" href="{{ '/manifesto/' | relative_url }}">Read the Manifesto</a>
-    <a class="btn btn-ghost" href="{{ '/governance/' | relative_url }}">Join the RfC</a>
-    <a class="btn btn-ghost" href="https://github.com/LogicIncZo/swartzism" title="Fork the repository">Fork on GitHub &#8599;</a>
+    <a class="btn btn-ghost" href="{{ '/governance/' | relative_url }}">How to Comment</a>
+    <a class="btn btn-ghost" href="https://github.com/LogicIncZo/swartzism" rel="noopener">Fork on GitHub &#8599;</a>
   </div>
-  <div class="boundary">
-    <div class="boundary-line"></div>
-    <p class="boundary-note">The boundary does not move</p>
-  </div>
+  <p class="hero-watch">In a hurry? <a href="{{ '/watch/' | relative_url }}">Watch the fourteen-second version &rarr;</a></p>
 </div>
 
-<h2 class="section-head">From the RfC</h2>
-{% if paginator.posts.size > 0 %}
+<div class="boundary" aria-hidden="true">
+  <div class="boundary-line"></div>
+  <div class="boundary-note">Be bold with the world's knowledge<span class="hl">.</span> Never with a person's life<span class="hl">.</span></div>
+</div>
+
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-inner"><span>Open for comment&nbsp;&nbsp;·&nbsp;&nbsp;The boundary does not move&nbsp;&nbsp;·&nbsp;&nbsp;Fork the doctrine&nbsp;&nbsp;·&nbsp;&nbsp;Open for comment&nbsp;&nbsp;·&nbsp;&nbsp;The boundary does not move&nbsp;&nbsp;·&nbsp;&nbsp;Fork the doctrine&nbsp;&nbsp;·&nbsp;&nbsp;</span><span>Open for comment&nbsp;&nbsp;·&nbsp;&nbsp;The boundary does not move&nbsp;&nbsp;·&nbsp;&nbsp;Fork the doctrine&nbsp;&nbsp;·&nbsp;&nbsp;Open for comment&nbsp;&nbsp;·&nbsp;&nbsp;The boundary does not move&nbsp;&nbsp;·&nbsp;&nbsp;Fork the doctrine&nbsp;&nbsp;·&nbsp;&nbsp;</span></div>
+</div>
+
+<h2 class="section-head">Essays</h2>
 <ul class="post-list">
-  {% for post in paginator.posts %}
+  {% for post in site.posts %}
   <li>
-    <div class="post-meta">
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-      {% for tag in post.tags limit:2 %}<span class="tag">{{ tag }}</span>{% endfor %}
-    </div>
+    <div class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time></div>
     <div class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></div>
-    <div class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 35 }}</div>
+    <div class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</div>
   </li>
   {% endfor %}
 </ul>
-
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer posts</a>
-  {% endif %}
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}">Older posts &rarr;</a>
-  {% endif %}
-</div>
-{% endif %}
-{% else %}
-<p>No posts yet. Check back soon.</p>
-{% endif %}
