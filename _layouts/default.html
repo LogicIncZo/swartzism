@@ -170,12 +170,15 @@
     <nav>
       <span class="site-title"><a href="{{ '/' | relative_url }}" style="color:var(--fg);text-decoration:none;">{{ site.title }}</a></span>
       <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/manifesto/' | relative_url }}">Manifesto</a>
+      <a href="{{ '/principles/' | relative_url }}">Principles</a>
+      <a href="{{ '/governance/' | relative_url }}">Governance</a>
       <a href="{{ '/about/' | relative_url }}">About</a>
       <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
     </nav>
     {{ content }}
     <footer>
-      <p>{{ site.title }} &mdash; by {{ site.author }}. Thoughts on AI, technology, and the assumptions we carry.</p>
+      <p>{{ site.title }} &mdash; a doctrine of information power. Be bold with the world's knowledge; never with a person's life. <a href="{{ '/governance/' | relative_url }}">v0.0.1 · RfC</a></p>
     </footer>
   </div>
 </body>
