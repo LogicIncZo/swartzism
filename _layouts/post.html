@@ -14,7 +14,12 @@ layout: default
     </div>
   </header>
   {{ content }}
-  <nav style="margin-top:48px;padding-top:24px;border-top:1px solid var(--border);display:flex;justify-content:space-between;">
+  <div class="endnote">
+    <p>The text is open for comment — name the line you attack, bring the evidence.</p>
+    <a class="btn btn-primary" href="{{ '/manifesto/' | relative_url }}">Read the Manifesto</a>
+    <a class="btn btn-ghost" href="{{ '/governance/' | relative_url }}">How to comment</a>
+  </div>
+  <nav class="post-nav">
     <div>
       {% if page.previous.url %}
         <a href="{{ page.previous.url | relative_url }}">&larr; {{ page.previous.title }}</a>

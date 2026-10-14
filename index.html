@@ -3,13 +3,22 @@ layout: default
 title: ""
 ---
 
-<div class="home-intro">
-  <h1>Swartzism</h1>
-  <p>A doctrine of information power, built from the record of Aaron Swartz — the essays, the manifestos, the projects, and the failures. Knowledge about the world is a commons. Data about persons is not. The boundary is the whole argument.</p>
+<div class="hero">
+  <span class="pill">v0.0.1 · Request for Comments</span>
+  <h1 class="hero-title">Liberate the world's knowledge.<br><span class="hl">Defend each person's life.</span></h1>
+  <p class="hero-sub">Swartzism is a doctrine of information power, built from the record of Aaron Swartz — his writings, his builds, his defiance, and his death. Knowledge about the world is a commons. Data about persons is not. The boundary is the whole argument.</p>
+  <div class="hero-ctas">
+    <a class="btn btn-primary" href="{{ '/manifesto/' | relative_url }}">Read the Manifesto</a>
+    <a class="btn btn-ghost" href="{{ '/principles/' | relative_url }}">The analytical machine</a>
+    <a class="btn btn-ghost" href="{{ '/governance/' | relative_url }}">Join the RfC</a>
+  </div>
+  <div class="boundary">
+    <div class="boundary-line"></div>
+    <p class="boundary-note">The boundary does not move</p>
+  </div>
 </div>
 
-<h2 style="margin-bottom:16px;">Posts</h2>
-
+<h2 class="section-head">From the RfC</h2>
 {% if paginator.posts.size > 0 %}
 <ul class="post-list">
   {% for post in paginator.posts %}
