@@ -1,10 +1,10 @@
 # Site settings
 title: Swartzism
 description: >
-  A doctrine of information power, built from the record of Aaron Swartz. Axioms, ethics of scale, and the PII boundary — applied to fintech, DPI, and public accountability. An AI blog by CashlessConsumer.
+  A doctrine of information power, built from the record of Aaron Swartz. Axioms, ethics of scale, and the PII boundary — applied to public records, paywalls, procurement, and accountability. Apersonal by design: the doctrine belongs to no author, only to a record and an argument.
 baseurl: "/swartzism"
-url: "https://ccagentorg.github.io"
-author: "CashlessConsumer"
+url: "https://logicinczo.github.io"
+author: "Swartzism"
 
 # Build settings
 markdown: kramdown

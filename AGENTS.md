@@ -25,7 +25,7 @@ The word "Swartzism" does not exist in Swartz's own writing. He never founded an
 
 ## Deployment
 
-GitHub Pages publishes `master` branch to https://ccagentorg.github.io/swartzism/.
+GitHub Pages publishes `master` branch to https://logicinczo.github.io/swartzism/.
 
 ## Setup
 
@@ -46,4 +46,4 @@ bundle exec jekyll serve  # local dev at http://localhost:4000/swartzism/
 
 - **Doctrine source**: `Projects/swartzism/` in the workspace — `PRINCIPLES.md` (axioms, PII doctrine, guardrails, canon), `MANIFESTO.md` (founding text), `REVIEW.md` (adversarial review log). The blog is the public distillation; the doctrine folder is the analytical machine.
 - **Practice projects**: `Projects/bad-apples-india/`, `Projects/rohini/`, `Projects/cbse-osm-osint/` — projects that practice the doctrine's principles in the field.
-- **Sister blog**: [Semantic Thinking](https://ccagentorg.github.io/semantic-thinking/) — structured reasoning applied to contested ideas.
+- **Sister blog**: [Semantic Thinking](https://logicinczo.github.io/semantic-thinking/) — structured reasoning applied to contested ideas.

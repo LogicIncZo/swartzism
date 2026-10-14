@@ -13,7 +13,7 @@ permalink: /about/
 
 The name is a construction, not a claim. Swartz did not name a movement; he left a record. This blog argues about what that record implies — and stress-tests the argument.
 
-Part of the **CCAgentOrg** open-data ecosystem. Analysis by [CashlessConsumer](https://cashlessconsumer.in), a fintech & DPI researcher.
+The blog is the doctrine's public face. Swartzism is apersonal by design: it belongs to no author, only to a record and an argument.
 
 ### Reading list
 
