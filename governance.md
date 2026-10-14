@@ -2,11 +2,11 @@
 layout: page
 title: "Governance"
 permalink: /governance/
-description: "The amendment process: versioning, how to comment, what is fixed, what moves a proposal."
+description: "The amendment process: versioning, how to participate, what is fixed, what moves a proposal. Forking is the preferred act."
 ---
 
 
-**v0.0.1 · 2026-10-14 · Request for Comments**
+**v0.0.2 · 2026-10-14 · Request for Comments**
 
 Swartzism is a doctrine, not a membership. It has no leaders, no signatories, and no one to obey. It has a text, a record, and a process for changing both. This document is that process.
 
@@ -25,9 +25,16 @@ One thing. **The boundary — liberate the world's knowledge, defend each person
 - **1.0.0** — only when the doctrine has survived a full adversarial pass (Pass 2 minimum) with no open amendment proposals against its axioms. Not before.
 - Versions are tags, not authorities. No version is binding on anyone; the text argues for itself.
 
-## 4. How to comment
+## 4. How to participate
 
-- Open an issue or pull request against the repository. Name the line you are attacking, state the argument, and cite the evidence.
+The repository is https://github.com/LogicIncZo/swartzism. Three doors, in rising order of commitment:
+
+- **Comment** — open an issue against the repository. Name the line you are attacking, state the argument, and cite the evidence.
+- **Amend** — open a pull request carrying the exact changed text. Proposals move at the speed of §5.
+- **Fork** — the preferred act. The license invites it: take the texts whole, change what you can defend, run your own review, and republish under CC BY-SA with the boundary intact. A fork is not a schism; it is the doctrine replicating the way information replicates — by copying and variation. If your fork survives its own attacks, link it back: the version history is the commons' memory.
+
+Two rules bind every door:
+
 - Claims about the record carry source URLs or they do not count. This rule binds the doctrine's own texts first — the review log records the corrigenda, including one fabricated citation caught and removed before publication.
 - Arguments are judged, not authors. The doctrine is apersonal: contributions carry no attribution inside the texts, and no one's endorsement is evidence.
 

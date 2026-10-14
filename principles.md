@@ -6,7 +6,7 @@ description: "The analytical machine: axioms, PII doctrine, guardrails, canon, t
 ---
 
 
-The analytical companion to the Manifesto. Axioms, the PII doctrine, guardrails, the canon, taxonomy, and open questions. **v0.0.1 · Request for Comments** — every claim about the record carries a source; nothing here is invented.
+The analytical companion to the Manifesto. Axioms, the PII doctrine, guardrails, the canon, taxonomy, and open questions. **v0.0.2 · Request for Comments** — every claim about the record carries a source; nothing here is invented.
 
 ---
 

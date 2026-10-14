@@ -2,10 +2,10 @@
 layout: page
 title: "The Swartzist Manifesto"
 permalink: /manifesto/
-description: "Version 0.0.1 — Request for Comments. Five axioms, an ethics of scale, one boundary, five works."
+description: "Version 0.0.2 — Request for Comments. Five axioms, an ethics of scale, one boundary, five works. Fork it."
 ---
 
-**v0.0.1 · 2026-10-14 · Published — Request for Comments.**
+**v0.0.2 · 2026-10-14 · Published — Request for Comments.**
 
 *This is a construction from the record of Aaron Swartz (1986–2013) — his writings, his builds, his organizing, his defiance, and his death. It is a doctrine drawn from that life, not a claim about his intentions.*
 
